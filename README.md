@@ -1,12 +1,11 @@
-# HTML5 Icecast/Shoutcast/Zeno Radio Full Page Radio Player with PWA Support
+# HTML5 Icecast/Shoutcast/AzuraCast Full Page Radio Player with PWA Support
 
 * Current song
 * Historic of played songs ( added option to show or hide history song )
-* Cover art of the current song ([Deezer API](https://developers.deezer.com/login?redirect=/api))
+* Cover art of the current song
 * Lyrics of the current song ([Vagalume API](https://api.vagalume.com.br/docs/))
 * Responsive design
 * Now available as a Progressive Web App (PWA) for enhanced user experience!
-* Now available Azuracast support
 
 ## Demo Screenshots
 
