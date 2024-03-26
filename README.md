@@ -19,18 +19,16 @@ Open The [Script.js](https://github.com/jailsonsb2/RadioPlayer-ZenoRadio/blob/ma
 
 ```javascript
 // RADIO NAME
-const RADIO_NAME = 'Your Radio Name';
+const RADIO_NAME = 'Your Radio';
 
-// Change Stream URL Zeno Radio Here.
-const URL_STREAMING = 'https://stream.zeno.fm/yn65fsaurfhvv';
+// Change Azuracast Stream URL Here, .
+const URL_STREAMING = 'https://azuracp.web-radios.eu/listen/treloparea/stream';
 
-// You can find the mount point in the Broadcast Settings.
-// To generate the Zeno Radio API link from the mount point,
-// exclude the '/source' part and append the remaining mount point to the base URL of the API.
-// For example, if the mount point is 'yn65fsaurfhvv/source',
-// the API link will be 'https://api.zeno.fm/mounts/metadata/subscribe/yn65fsaurfhvv'.
+//API URL Azuracast Now Playing
+const API_URL = 'https://azuracp.web-radios.eu/api/nowplaying/2';
 
-const API_URL = 'https://api.zeno.fm/mounts/metadata/subscribe/yn65fsaurfhvv'
+// Visit https://api.vagalume.com.br/docs/ to get your API key
+const API_KEY = "18fe07917957c289983464588aabddfb";
 
 // Variable to control history display: true = display / false = hides
 let showHistory = true; 
