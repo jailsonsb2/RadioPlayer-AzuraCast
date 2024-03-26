@@ -39,17 +39,6 @@ let showHistory = true;
 
  Open The img folder and add your logo named "cover.png"
 
- ## Zeno Radio API Now Playing.
-
-To generate the Zeno Radio API link from the mount point,
-exclude the '/source' part and append the remaining mount point to the base URL of the API.
-You can find the mount point in the Broadcast Settings.
-For example, if the mount point is 'yn65fsaurfhvv/source',
-the API link will be 'https://api.zeno.fm/mounts/metadata/subscribe/yn65fsaurfhvv'.
-
-![Demo Screenshot](https://i.imgur.com/8F61uyD.jpg)
-
-
  ## Installation
 Just put the files in your server or use Free Hosting
 
@@ -94,11 +83,9 @@ Here's an example:
 ```
 
 ## Supported Hosting Types
-* Zeno Radio
 * Azuracast
 
 ## Supported API/Data Sources
-* Deezer
 * Azuracast
 
 ## Keyboard Controls 
